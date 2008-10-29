@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 8FD240560EAD5BBD008167E4 /* Mamadupe */;
+		activeTarget = 4DDCA7030ACC9A6100E082CE /* Mamadupe */;
+		addToTargets = (
+			4DDCA7030ACC9A6100E082CE /* Mamadupe */,
+		);
+		codeSenseManager = 8FD240650EAD5BC6008167E4 /* Code sense */;
+		executables = (
+			8FD240560EAD5BBD008167E4 /* Mamadupe */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					441,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 246987739;
+			PBXWorkspaceStateSaveDate = 246987739;
+		};
+		perUserProjectItems = {
+			8F3B9F0B0EAD5DFA001B3C94 /* PBXTextBookmark */ = 8F3B9F0B0EAD5DFA001B3C94 /* PBXTextBookmark */;
+			8F3B9F0D0EAD5DFA001B3C94 /* PBXTextBookmark */ = 8F3B9F0D0EAD5DFA001B3C94 /* PBXTextBookmark */;
+			8F49BAD00EAD7193003311E9 /* PBXTextBookmark */ = 8F49BAD00EAD7193003311E9 /* PBXTextBookmark */;
+			8F5699830EB8BBFA009191F6 /* PBXTextBookmark */ = 8F5699830EB8BBFA009191F6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8FD240640EAD5BC6008167E4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 292}";
+		};
+	};
+	4DDCA7030ACC9A6100E082CE /* Mamadupe */ = {
+		activeExec = 0;
+		executables = (
+			8FD240560EAD5BBD008167E4 /* Mamadupe */,
+		);
+	};
+	8F3B9EF50EAD5C6F001B3C94 /* MamaController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {619, 4354}}";
+			sepNavSelRange = "{8207, 0}";
+			sepNavVisRange = "{0, 81}";
+		};
+	};
+	8F3B9F0B0EAD5DFA001B3C94 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 292;
+		vrLoc = 0;
+	};
+	8F3B9F0D0EAD5DFA001B3C94 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 292;
+		vrLoc = 0;
+	};
+	8F49BAD00EAD7193003311E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8F3B9EF50EAD5C6F001B3C94 /* MamaController.rb */;
+		name = "MamaController.rb: 273";
+		rLen = 0;
+		rLoc = 8207;
+		rType = 0;
+		vrLen = 43;
+		vrLoc = 20;
+	};
+	8F5699830EB8BBFA009191F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8F3B9EF50EAD5C6F001B3C94 /* MamaController.rb */;
+		name = "MamaController.rb: 271";
+		rLen = 0;
+		rLoc = 8207;
+		rType = 0;
+		vrLen = 81;
+		vrLoc = 0;
+	};
+	8FD240560EAD5BBD008167E4 /* Mamadupe */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Mamadupe;
+		sourceDirectories = (
+		);
+	};
+	8FD240640EAD5BC6008167E4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	8FD240650EAD5BC6008167E4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

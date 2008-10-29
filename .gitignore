@@ -1,0 +1,4 @@
+*.log
+tmp/**/*
+mamadupe/build/**/*
+.DS_Store
