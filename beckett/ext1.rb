@@ -1,6 +1,7 @@
 require 'zlib'
 require 'digest'
 require 'enumerator'
+require 'cgi'
 
 class String
 
@@ -40,7 +41,15 @@ class String
     h[:white]     = "\e[37m:::\e[0m"
     args.inject(self) { |s,arg| h[arg].gsub(/:::/,s) }
   end
-  
+
+  def to_url
+    CGI::escape(self)
+  end
+
+  def from_url
+    CGI::unescape(self)
+  end
+
 end
 
 class File
