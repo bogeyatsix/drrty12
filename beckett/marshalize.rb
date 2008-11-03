@@ -27,3 +27,17 @@ def marshal_clone(data)
   marshal_destroy(filename)
   return h
 end
+
+def marshal_update(filename)
+  x = marshal(filename)
+  x = yield(x)
+  marshal(filename,x)
+end
+
+=begin
+  y = ["Hello"]
+  marshal('testObj',y)
+  marshal_update('testObj') { |e| e[0] << " World!" }
+  puts marshal('testObj').inspect 
+    #=> ["Hello World!"]
+=end
